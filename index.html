@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<!--
+=========================================================
+    Portfolio Website
+
+    Developer    : Sima Mori
+    Version      : 2.0
+    Technologies : HTML5, CSS3, JavaScript
+
+    Description:
+    Personal Portfolio Website showcasing
+    skills, projects, certifications and contact details.
+=========================================================
+-->
+
+<html lang="en">
+
+<head>
+
+    <!-- =========================================
+         Basic Meta Information
+    ========================================= -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sima Mori | Full Stack Developer Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Devicon -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png">
+
+</head>
+
+<body>
+
+    <!-- ================= LOADER ================= -->
+
+    <div id="loader">
+
+        <div class="loader-logo">
+            SM
+        </div>
+
+        <h1>Sima Mori</h1>
+
+        <p>Portfolio Loading...</p>
+
+        <div class="loader-bar">
+            <div class="loader-fill"></div>
+        </div>
+
+    </div>
+
+    <!-- ================= SCROLL BAR ================= -->
+
+    <div id="progress-bar"></div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav>
+
+        <div class="logo">
+            Sima
+        </div>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#certifications">Certificates</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <div class="theme-switch">
+
+            <button id="themeToggle">
+                🌙
+            </button>
+
+        </div>
+
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section id="home" class="hero">
+
+        <h3>Hello, I'm</h3>
+
+        <h1>Sima Mori</h1>
+
+        <h2>
+            <span id="typing"></span>
+        </h2>
+
+        <p>
+
+            Passionate Full Stack Developer and Android Developer.
+
+            I love building modern websites, Android applications,
+            AI-powered projects and responsive user interfaces using
+            Java, React.js, Node.js, Firebase and JavaScript.
+
+        </p>
+
+        <div class="button">
+
+            <a href="assets/Sima-Mori-Resume.pdf"
+                class="btn"
+                target="_blank">
+
+                <i class="fa-solid fa-file-arrow-down"></i>
+
+                Resume
+
+            </a>
+
+            <a href="https://github.com/morisima1410"
+                class="btn"
+                target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+
+                GitHub
+
+            </a>
+
+            <a href="https://www.linkedin.com/in/sima-mori-a0102a349"
+                class="btn"
+                target="_blank">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+                LinkedIn
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about hidden">
+
+        <h2>About Me</h2>
+
+        <div class="about-card">
+
+            <div class="about-left">
+
+                <img src="images/profile.jpg"
+                    alt="Sima Mori">
+
+            </div>
+
+            <div class="about-right">
+
+                <h3>Sima Mori</h3>
+
+                <p>
+
+                    Diploma in Computer Engineering graduate from
+
+                    <strong>C. U. Shah Government Polytechnic</strong>
+
+                    with a CGPI of
+
+                    <strong>8.42</strong>.
+
+                    Passionate about Full Stack Development,
+                    Android Development and Artificial Intelligence.
+
+                </p>
+
+                <div class="info">
+
+                    <p>
+                        🎯 Goal :
+                        Full Stack Developer
+                    </p>
+
+                    <p>
+                        📍 Location :
+                        Gujarat, India
+                    </p>
+
+                    <p>
+                        🎓 College :
+                        C. U. Shah Government Polytechnic
+                    </p>
+
+                    <p>
+                        📚 Learning :
+                        React.js, Node.js,
+                        Express.js & AI
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="skills hidden">
+
+        <h2>Technical Skills</h2>
+
+        <div class="skills-container">
+
+            <!-- Java -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-java-plain colored"></i>
+
+                </div>
+
+                <h3>Java</h3>
+
+                <p>Advanced</p>
+
+            </div>
+
+            <!-- HTML -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-html5-plain colored"></i>
+
+                </div>
+
+                <h3>HTML5</h3>
+
+                <p>Advanced</p>
+
+            </div>
+
+            <!-- CSS -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-css3-plain colored"></i>
+
+                </div>
+
+                <h3>CSS3</h3>
+
+                <p>Advanced</p>
+
+            </div>
+
+            <!-- JavaScript -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-javascript-plain colored"></i>
+
+                </div>
+
+                <h3>JavaScript</h3>
+
+                <p>Advanced</p>
+
+            </div>
+
+            <!-- React -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-react-original colored"></i>
+
+                </div>
+
+                <h3>React.js</h3>
+
+                <p>Intermediate</p>
+
+            </div>
+
+            <!-- Node -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-nodejs-plain colored"></i>
+
+                </div>
+
+                <h3>Node.js</h3>
+
+                <p>Intermediate</p>
+
+            </div>
+                        <!-- Express.js -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-express-original"></i>
+
+                </div>
+
+                <h3>Express.js</h3>
+
+                <p>Intermediate</p>
+
+            </div>
+
+            <!-- Firebase -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-firebase-plain colored"></i>
+
+                </div>
+
+                <h3>Firebase</h3>
+
+                <p>Intermediate</p>
+
+            </div>
+
+            <!-- MongoDB -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-mongodb-plain colored"></i>
+
+                </div>
+
+                <h3>MongoDB</h3>
+
+                <p>Intermediate</p>
+
+            </div>
+
+            <!-- MySQL -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-mysql-plain colored"></i>
+
+                </div>
+
+                <h3>SQL</h3>
+
+                <p>Intermediate</p>
+
+            </div>
+
+            <!-- Android -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-android-plain colored"></i>
+
+                </div>
+
+                <h3>Android</h3>
+
+                <p>Advanced</p>
+
+            </div>
+
+            <!-- Python -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-python-plain colored"></i>
+
+                </div>
+
+                <h3>Python</h3>
+
+                <p>Intermediate</p>
+
+            </div>
+
+            <!-- Git -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-git-plain colored"></i>
+
+                </div>
+
+                <h3>Git</h3>
+
+                <p>Working Knowledge</p>
+
+            </div>
+
+            <!-- GitHub -->
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+
+                    <i class="devicon-github-original"></i>
+
+                </div>
+
+                <h3>GitHub</h3>
+
+                <p>Working Knowledge</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="hidden">
+
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-container">
+
+            <!-- CampusAI -->
+
+            <div class="project-card">
+
+                <img src="images/campusai.png"
+                     alt="CampusAI">
+
+                <div class="project-content">
+
+                    <span class="featured">
+                        ⭐ Featured Project
+                    </span>
+
+                    <h3>CampusAI</h3>
+
+                    <p>
+
+                        AI-powered College Assistant built using
+                        HTML, CSS, JavaScript, Firebase and
+                        Gemini API. Students can ask questions,
+                        access study material and manage academic
+                        information.
+
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>HTML</span>
+
+                        <span>CSS</span>
+
+                        <span>JavaScript</span>
+
+                        <span>Firebase</span>
+
+                        <span>Gemini API</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="https://github.com/morisima1410"
+                           target="_blank">
+
+                            <i class="fa-brands fa-github"></i>
+
+                            GitHub
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        
+            <!-- Snake Game -->
+
+           <div class="project-card">
+
+    <img src="images/snake.png" alt="Snake Game">
+
+    <div class="project-content">
+
+       
+
+        <h3>Snake Game</h3>
+
+        <p>
+            A classic Snake Game developed using Java in Android Studio.
+            The game features smooth controls, real-time score tracking,
+            collision detection, increasing difficulty levels, and an
+            engaging user interface to provide an enjoyable gaming experience.
+        </p>
+
+        <div class="tech-stack">
+
+            <span>Java</span>
+            <span>Android Studio</span>
+            <span>XML</span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/morisima1410" target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+                GitHub
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+            <div class="project-card">
+
+    <img src="images/shop-easy.png" alt="Shop Easy Application">
+
+    <div class="project-content">
+
+        <h3>Shop Easy Application</h3>
+
+        <p>
+            Shop Easy is an Android shopping application developed
+            using Java, XML and Firebase. The app allows users to
+            browse products, add items to the cart, manage orders,
+            and enjoy a simple and user-friendly shopping experience.
+        </p>
+
+        <div class="tech-stack">
+
+            <span>Java</span>
+            <span>XML</span>
+            <span>Firebase</span>
+            <span>Android Studio</span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/morisima1410" target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+                GitHub
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+        </div>
+
+    </section>
+    <!-- ================= MORE PROJECTS ================= -->
+
+<div class="project-container">
+    <!-- Quiz Application -->
+
+   <div class="project-card">
+
+    <img src="images/shop-easy.png" alt="Shop Easy Application">
+
+    <div class="project-content">
+
+    
+
+        <h3>Shop Easy Application</h3>
+
+        <p>
+            Shop Easy is an Android shopping application developed
+            using Java, XML, and Firebase. The app allows users to
+            browse products, view product details, add items to the
+            cart, manage orders, and enjoy a simple, secure, and
+            user-friendly shopping experience.
+        </p>
+
+        <div class="tech-stack">
+
+            <span>Java</span>
+            <span>XML</span>
+            <span>Firebase</span>
+            <span>Android Studio</span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/morisima1410" target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+                GitHub
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+    <div class="project-card">
+
+    <img src="images/college-app.png" alt="College Application">
+
+    <div class="project-content">
+
+        <h3>College Management Application</h3>
+
+        <p>
+            A College Management Android Application developed using
+            Java, XML and Firebase. The application allows students
+            and faculty to manage notices, attendance, study materials,
+            events and academic information through a user-friendly interface.
+        </p>
+
+        <div class="tech-stack">
+
+            <span>Java</span>
+            <span>XML</span>
+            <span>Firebase</span>
+            <span>Android Studio</span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/morisima1410" target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+                GitHub
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="project-card">
+
+    <img src="images/smart-attendance.png" alt="Smart Attendance System">
+
+    <div class="project-content">
+
+       
+
+        <h3>Smart Attendance System</h3>
+
+        <p>
+            An AI-powered Smart Attendance System developed using
+            Python, OpenCV and Face Recognition technology. The system
+            automatically detects and recognizes students' faces,
+            marks attendance, and stores attendance records efficiently.
+        </p>
+
+        <div class="tech-stack">
+
+            <span>Python</span>
+            <span>OpenCV</span>
+            <span>Face Recognition</span>
+            <span>SQLite</span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/morisima1410" target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+                GitHub
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section id="certifications" class="certifications hidden">
+
+    <h2>Certifications</h2>
+
+    <div class="certificate-container">
+
+        <div class="certificate-card">
+
+            <i class="fa-solid fa-award"></i>
+
+            <h3>Full Stack Development</h3>
+
+            <p>WsCube Tech</p>
+
+            <a href="certificate/Fullstack.pdf" target="_blank">
+                View Certificate
+            </a>
+
+        </div>
+
+        <div class="certificate-card">
+
+            <i class="fa-solid fa-robot"></i>
+
+            <h3>Generative AI</h3>
+
+            <p>IBM SkillsBuild</p>
+
+            <a href="certificate/Generative-AI.pdf" target="_blank">
+                View Certificate
+            </a>
+
+        </div>
+
+        <div class="certificate-card">
+
+            <i class="fa-brands fa-python"></i>
+
+            <h3>Python Developer Internship</h3>
+
+            <p>BytesBizz Technology LLP</p>
+
+            <a href="certificate/python.pdf" target="_blank">
+                View Certificate
+            </a>
+
+        </div>
+
+        <div class="certificate-card">
+
+            <i class="fa-brands fa-android"></i>
+
+            <h3>Android Development Internship</h3>
+
+            <p>BytesBizz Technology LLP</p>
+
+            <a href="certificate/android.pdf" target="_blank">
+                View Certificate
+            </a>
+
+        </div>
+        <div class="certificate-card">
+
+    <i class="fa-brands fa-android"></i>
+
+    <h3>Android Development</h3>
+
+    <p>Shakti Education</p>
+
+    <a href="certificate/Shakti.pdf" target="_blank">
+        View Certificate
+    </a>
+
+</div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact hidden">
+
+    <h2>Contact Me</h2>
+
+    <p>
+
+        Feel free to connect with me regarding
+        internships, freelance work,
+        collaborations or job opportunities.
+
+    </p>
+
+    <div class="contact-links">
+
+        <!-- Email -->
+
+        <a href="mailto:morisima1410@gmail.com">
+
+            <i class="fa-solid fa-envelope"></i>
+
+            Email
+
+        </a>
+
+        <!-- GitHub -->
+
+        <a href="https://github.com/morisima1410"
+            target="_blank">
+
+            <i class="fa-brands fa-github"></i>
+
+            GitHub
+
+        </a>
+
+        <!-- LinkedIn -->
+
+        <a href="https://www.linkedin.com/in/sima-mori-a0102a349"
+            target="_blank">
+
+            <i class="fa-brands fa-linkedin"></i>
+
+            LinkedIn
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Cursor -->
+
+<div class="cursor-dot"></div>
+
+<div class="cursor-glow"></div>
+
+<div id="particles"></div>
+
+<!-- Scroll Top -->
+
+<button id="topBtn">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <p>
+
+        © 2026 Sima Mori.
+        All Rights Reserved.
+
+    </p>
+
+    <div class="footer-icons">
+
+        <a href="https://github.com/morisima1410" target="_blank">
+
+            <i class="fa-brands fa-github"></i>
+
+        </a>
+
+        <a href="https://linkedin.com/in/your-linkedin"
+            target="_blank">
+
+            <i class="fa-brands fa-linkedin"></i>
+
+        </a>
+
+        <a href="mailto:your-email@gmail.com">
+
+            <i class="fa-solid fa-envelope"></i>
+
+        </a>
+
+    </div>
+
+    <p class="footer-text">
+
+        Designed & Developed with ❤️ by Sima Mori
+
+    </p>
+
+</footer>
+
+</body>
+
+</html>
