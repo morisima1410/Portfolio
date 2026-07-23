@@ -85,13 +85,10 @@ This portfolio website is designed to present my technical skills, development p
 - Python Developer Internship Certificate
 - Android Developer Internship Certificate
 
-## 📸 Portfolio Preview
-
-(Add your portfolio screenshot here)
 
 ## 📬 Contact
 
-**Developer:** Hardik Mori
+**Developer:** Sima Mori
 
 - GitHub: https://github.com/morisima1410
 - LinkedIn: https://www.linkedin.com/in/sima-mori-a0102a349
